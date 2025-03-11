@@ -1,0 +1,2 @@
+1. Go AWS lake formation > Click Databases tab select the database you need to edit > Click actions > Permissions > Click Grant
+2. Then select IAM users and roles > select the sso role have insufficient permission > then scroll down to bottom > database permission > Check Create table and Describe > Click Grant

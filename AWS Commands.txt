@@ -1,0 +1,37 @@
+aws ec2 describe-instances --filters Name=tag-key,Values=Name --query "Reservations[*].Instances[*].{Instance:InstanceId,Name:Tags[?Key=='Name']|[0].Value,PrivateIpAddress:PrivateIpAddress,InstanceType:InstanceType,State:State,KeyName:KeyName}" >AWS account namecsv
+
+
+1. for count of EC2 Instances
+aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId]' --output text | wc-|
+
+
+
+
+
+
+
+
+aws ec2 describe-instances --filters Name=tag-key,Values=Name --query "Reservations[*].Instances[*].{Instance:InstanceId,Name:Tags[?Key=='Name']|[0].Value,PrivateIpAddress:PrivateIpAddress,InstanceType:InstanceType,Tags:Tags, Platform: PlatformDetails}" > serviceaccount.csv
+
+
+
+
+
+SELECT
+  AccountId,
+  resourceId,
+  resourceName,
+  resourceType,
+
+  
+  configuration.backupRetentionPeriod
+WHERE
+  resourceType = 'AWS::RDS::DBInstance'
+
+
+Lake formation error: FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.DDLTask. MetaException(message:Insufficient Lake Formation permission(s) on s3://cdp-prod-env-datamarts/dsai (Service: AmazonDataCatalog; Status Code: 400; Error Code: AccessDeniedException; Request ID: 028ecae3-80ae-44b2-9b24-8f1aefaa2a5e; Proxy: null))
+Region: ap-southeast-1
+
+Solution:
+
+1. Go to AWS Lake Formation > Under Permissions select Data locations > Choose the s3 location click grant > Select the SSO Role > Storage Locations the s3 specific location > Click Grant

@@ -1,0 +1,13 @@
+go to sso directory > import credentials if Old LZ (AWS Service Account) New LZ (AWS PRODMGMT)
+1. terragrunt plan > Type N if cannot read Terragrunt init
+2. terragrunt apply > Type Y 
+3. cd ../../ > run git commands in iac-organization
+
+git checkout -b New Branch for merge request
+git status 
+
+git add .
+git commit -m "SR Ticket and Request"
+
+git branch 
+git push origin "branch"

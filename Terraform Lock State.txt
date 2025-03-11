@@ -1,0 +1,6 @@
+For terraform lock state
+1. Go to AWS prodmgmt account
+2. Go to Dynamo DB > Click Explore Items
+3. Go Page 3 Find terraform lock state ID error in code
+4. Delete the terraform lock state in Dynamo DB with the same terraform lock state ID error.
+5. Go back to your code run terragrunt plan again.

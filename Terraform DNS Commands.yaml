@@ -1,0 +1,25 @@
+For update specific DNS or VPC
+
+
+cd profiles/svc_account/dns > Paste Access Key for AWS master account.
+modify terraform_vars.yaml
+
+Add DNS record in terraform_vars.yaml 
+
+example 
+
+- name: "test-dns-name"
+    type: "CNAME"
+    ttl: 300
+    records:
+    - "loadbalancerDNSRecord"
+
+  - name: "example-dns-1"
+    type: "A"
+    ttl: 300
+    records:
+    - "sample ip address (10.1.1.1)""
+
+
+terragrunt plan --target='module.records'
+terragrunt apply --target='module.records'
