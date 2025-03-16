@@ -1,0 +1,10 @@
+For IAM Role
+
+Regrep DEV
+copy the IAM role ARN given
+
+Regrep SIT
+copy the IAM role ARN given
+
+
+For the s3 location > Click Permissions > Edit Bucket policy > Then paste the IAM role ARN

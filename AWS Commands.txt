@@ -29,7 +29,7 @@ WHERE
   resourceType = 'AWS::RDS::DBInstance'
 
 
-Lake formation error: FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.DDLTask. MetaException(message:Insufficient Lake Formation permission(s) on s3://cdp-prod-env-datamarts/dsai (Service: AmazonDataCatalog; Status Code: 400; Error Code: AccessDeniedException; Request ID: 028ecae3-80ae-44b2-9b24-8f1aefaa2a5e; Proxy: null))
+Lake formation error: FAILED: Execution Error, return code 1 from org.apache.hadoop.hive.ql.exec.DDLTask. MetaException(message:Insufficient Lake Formation permission(s) on s3://sample-bucket-test/subfolder1 (Service: AmazonDataCatalog; Status Code: 400; Error Code: AccessDeniedException; Request ID: 028ecae3-80ae-44b2-9b24-8f1aefaa2a5e; Proxy: null))
 Region: ap-southeast-1
 
 Solution:

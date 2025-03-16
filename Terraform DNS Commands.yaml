@@ -12,7 +12,7 @@ example
     type: "CNAME"
     ttl: 300
     records:
-    - "loadbalancerDNSRecord"
+    - internal-k8s-argocd-argocdse-90r220i45d-2929386543.ap-southeast-1.elb.amazonaws.com
 
   - name: "example-dns-1"
     type: "A"

@@ -1,0 +1,22 @@
+Steps in Uploading Update YAML Files
+1. Go to CloudFormation select the test-(env)-master-01
+2. Select Replace current template
+3. Upload the updated template yaml file
+
+AWS Test master account
+123456789011
+098765432110
+template.yaml
+
+Storage account:
+101122937479
+022345794641
+transfer_family_template.yaml
+
+
+For checking the stacks 
+1. Select the stacks you need to upload updated yaml file.
+2. Go into Template and check if the content is the same with the updated yaml file you will upload.
+
+Check first the config file of the environment ex. (DEV, SIT, UAT)
+put the parameters base on the config file for the NEW template.
