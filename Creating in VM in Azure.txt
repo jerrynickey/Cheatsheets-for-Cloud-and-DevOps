@@ -1,0 +1,34 @@
+Creating in VM in Azure
+1. Select Virtual Machine > Click Azure Virtual Machine
+2. Under Subscription > Select WVD
+Resource group > rg-vendor-test-project
+3. Virtual machine name = abcwvd-project-01
+Region select > (Asia Pacific) Southeast asia 
+Availability options > Availabilty zone 
+Availability zone > Zone1 
+Image: see all images select REGREP_win11_m365
+Size: Standard_D8ds_v5 - 8vcpus, 32 GiB Memory
+
+username: infratest_admin
+password: admin12345$
+
+Public inbound ports select: None
+
+Licensing type select: Windows Client
+check i confirm
+
+click next: Disks >
+os disk default
+
+4. Under Networking
+
+Virtual network name: vnet-test-wvd-SG93
+Subnet: snet-test-wvd-SG99
+Public IP: None
+NIC network security group: None 
+
+Delete public IP and NIC when VM Checked Tick
+Enable accelerated network default
+
+review + create 
+subnet

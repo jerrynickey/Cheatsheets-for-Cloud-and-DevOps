@@ -1,0 +1,8 @@
+Cleanup profile for fslogix
+Go to the hostpool
+Check always drain mode if there an VM that is On turn OFF
+Advance Settings
+System properties > user profiles
+Disk Management > 
+
+File recovery per user > overwrite

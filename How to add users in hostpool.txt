@@ -1,0 +1,7 @@
+How to add users in hostpools?
+1. Locate hostpool
+2. Select hostpool-project-test01 
+3. Go to Manage Menu > Select Application Groups
+4. Select hostpool with DAG.
+5. Click Assignments (manage).
+6. Click Add > Select Users to add.

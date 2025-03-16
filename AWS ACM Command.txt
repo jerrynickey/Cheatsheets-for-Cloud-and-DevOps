@@ -1,0 +1,5 @@
+AWS ACM
+ 
+certbody - servercert
+certprivatekey - wildcard 
+certchain - root + intermediate ++

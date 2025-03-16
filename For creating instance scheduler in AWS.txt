@@ -1,0 +1,15 @@
+For creating instance scheduler in AWS
+
+create first period 
+copy json 
+edit 
+
+create schedule
+copy json
+edit
+
+
+
+
+
+

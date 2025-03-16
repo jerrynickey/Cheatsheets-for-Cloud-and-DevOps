@@ -1,0 +1,2 @@
+1. Before increasing SPICE capacity of Quicksight ask for the REGION need to upgrade in requestor.
+2. Go to Quicksight UI > On the Upper Right Click the human icon > Click Manage Quicksight > Click > SPICE Capacity > Select the region where the Dashboard is existing.

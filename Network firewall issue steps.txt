@@ -1,0 +1,3 @@
+network firewall issue
+1. Check the user IP address VDI > ipconfig VDI
+2. Check the url ip address.

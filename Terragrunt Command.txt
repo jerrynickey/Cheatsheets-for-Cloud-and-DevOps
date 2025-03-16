@@ -1,4 +1,4 @@
-go to sso directory > import credentials if Old LZ (AWS Service Account) New LZ (AWS PRODMGMT)
+go to sso directory > import credentials if Old LZ (AWS Service Account) New LZ (AWS Service Account 2)
 1. terragrunt plan > Type N if cannot read Terragrunt init
 2. terragrunt apply > Type Y 
 3. cd ../../ > run git commands in iac-organization

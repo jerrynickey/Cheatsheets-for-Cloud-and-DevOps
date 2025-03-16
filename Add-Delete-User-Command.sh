@@ -10,17 +10,17 @@ PasswordAuthentication yes
 How to Delete/Remove Users in Linux using userdel command
 $ - sudo userdel <user_name>
 
-sudo adduser --badnames APrakash
-sudo passwd APrakash
+sudo adduser --badnames JDoe
+sudo passwd JDOe
 
-sudo adduser --badnames DMishra
-sudo passwd DMishra
+sudo adduser --badnames KBryant
+sudo passwd KBryant
 
-sudo adduser --badnames KDebnath
-sudo passwd KDebnath
+sudo adduser --badnames KDurant
+sudo passwd KDurant
 
-sudo adduser --badnames SSen
-sudo passwd SSen
+sudo adduser --badnames SCurry
+sudo passwd SCurry
 
-sudo adduser --badnames UBhattacharyya
-sudo passwd UBhattacharyya
+sudo adduser --badnames UHaslem
+sudo passwd UHaslem

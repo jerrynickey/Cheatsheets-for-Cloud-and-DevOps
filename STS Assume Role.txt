@@ -1,11 +1,11 @@
-STS Username: gs-uat-crmnext-airflow-servicenote-uat
+STS Username: sample-uat-project-quicksight-servicenote-uat
 
-IAM Role: gs-uat-crmnext-airflow-servicenote-uat-role 
+IAM Role: sample-uat-project-quicksight-servicenote-uat-role 
 
 add trust relationships : service role user arn 
 assume role
 
-IAM Policy: gs-uat-crmnext-airflow-offer-uat-policy
+IAM Policy: sample-uat-project-quicksight-servicenote-uat-policy
 
 {
     "Version": "2012-10-17",
@@ -21,8 +21,8 @@ IAM Policy: gs-uat-crmnext-airflow-offer-uat-policy
                 "s3:List*"
             ],
             "Resource": [
-                "arn:aws:s3:::gs-prod-crmnext-airflow",
-                "arn:aws:s3:::gs-prod-crmnext-airflow/*"
+                "arn:aws:s3:::sample-bucket-test",
+                "arn:aws:s3:::sample-bucket-test/*"
             ]
         }
     ]

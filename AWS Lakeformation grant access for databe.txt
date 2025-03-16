@@ -1,0 +1,9 @@
+AWS Lakeformation grant access for database
+
+1. Select the database need to grant access
+2. Click Grant
+3. Select the IAM role for specific database 
+- Table options > Select All tables 
+- Database Permission > Checked Select and Describe
+- Grant Permission > Checked Select and Describe
+4. Click Grant
